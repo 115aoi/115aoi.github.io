@@ -2,6 +2,7 @@
 layout: post
 title: "GitHubでブログを始めました！"
 date: 2026-03-05
+tags: [日記, 挨拶]
 ---
 
 # はじめての投稿
