@@ -1,8 +1,5 @@
 <h1>
-  <div class="blog-title">
-    aoi blog
-  </div>
-  へようこそ
+  <span class="blog-title">aoi blog</span>へようこそ
 </h1>
 こんにちは！aoiです。
 日々のアクティビティについて日記っぽいものを書こうと思いました。
