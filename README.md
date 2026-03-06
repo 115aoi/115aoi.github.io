@@ -1,4 +1,9 @@
-<h1><span "font-family: 'Courier New', Courier, monospace; color: blue;">aoi blog</span>へようこそ</h1>
+<h1>
+  <div class="blog-title">
+    aoi blog
+  </div>
+  へようこそ
+</h1>
 こんにちは！aoiです。
 日々のアクティビティについて日記っぽいものを書こうと思いました。
 よろしくお願いします！　\\(. _ .)/
