@@ -1,7 +1,8 @@
-```html:title
+```html:template
 ---
 layout: post
 title:
 date:
-tags: 
+tags:
+___
 ```
