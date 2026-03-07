@@ -1,8 +1,8 @@
 ```html:template
 ---
 layout: post
-title:
-date:
-tags:
+title: ""
+date: 
+tags: []
 ___
 ```
