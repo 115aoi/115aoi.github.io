@@ -5,10 +5,10 @@ author: aoi
 timezone: Asia/Tokyo
 
 # 既存の設定の下に追記
-header_pages:
-  - index.md
-  - about.md
+# header_pages:
+#  - index.md
+#  - about.md
 
 # ソーシャルリンクなどを出したい場合（テーマによって対応が異なります）
-github_username: 115aoi
+# github_username: 115aoi
 #twitter_username: TwitterID
