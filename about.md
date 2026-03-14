@@ -19,6 +19,6 @@ Hi! Welcome back my blog blog. \\(. _ .)/
 
 And... I will see you guys in the next articles... ===(\~・ v ・)~
 
-## Link
+## Links
 
 [GitHub](https://github.com/115aoi)
