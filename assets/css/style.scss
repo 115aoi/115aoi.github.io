@@ -9,28 +9,40 @@
 
 
 // ==========================================
-// vibe coding 課題：サイドバーアイコンのスタイル定義
+// vibe coding 課題：サイドバー全体の要素を中央揃えにするスタイル
 // ==========================================
+
+// サイドバーの親要素（header）の中身をすべて中央に集める
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* 💡中身の要素をすべて横方向の中央に揃える */
+  text-align: center;     /* 💡テキストやインライン要素を中央揃えにする */
+}
 
 .avatar-container {
   width: 100%;
-  margin-bottom: 20px; /* タイトル（aoi blog）との間の余白 */
-  display: block;
+  margin-bottom: 20px;    /* タイトル（aoi blog）との間の余白 */
+  display: flex;
+  justify-content: center; /* 💡アイコン画像を確実に中央に配置する */
 }
 
 .sidebar-avatar {
-  width: 130px;          /* 丸型アイコンの横幅 */
-  height: 130px;         /* 縦横を同じにして正方形を作る */
-  
-  // 【Verification 3 パス用】画像を完全に丸くする制御
+  width: 130px;          
+  height: 130px;         
   border-radius: 50%;    
-  
-  // 【Validation 2 パス用】画像を縦横に引き伸ばさずに枠内に収める
   object-fit: cover;     
-  
-  // 【Validation 2の核心】右上のレンと左下のリンの顔が
-  // 同時に円の中にぴったり収まるように、切り抜きの中心点を少し右上に調整
   object-position: 55% 25%; 
+  
+  // 先ほどコメントアウトしていただいたボーダーは削除、または以下のように残しておけばOKです
+  // border: 3px solid #1e5799; 
+}
 
-  /* border: 3px solid #1e5799;  ブログのテーマに合わせた青い枠線（不要なら削除してOKです） */
+// GitHubのリンクボタン（ulタグ）の左側に勝手に入る余白（パディング）をリセットして中央に寄せる
+header ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
 }
